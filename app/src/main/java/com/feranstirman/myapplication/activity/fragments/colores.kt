@@ -1,4 +1,4 @@
-package com.feranstirman.myapplication.activity
+package com.feranstirman.myapplication.activity.fragments
 
 import android.content.Context
 import android.net.Uri
@@ -92,12 +92,9 @@ class colores : Fragment() {
          */
         // TODO: Rename and change types and number of parameters
         @JvmStatic
-        fun newInstance(param1: String, param2: String) =
+        fun newInstance() =
             colores().apply {
-                arguments = Bundle().apply {
-                    putString(ARG_PARAM1, param1)
-                    putString(ARG_PARAM2, param2)
-                }
+                print("IDK LOL")
             }
     }
 }

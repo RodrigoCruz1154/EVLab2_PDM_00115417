@@ -1,4 +1,4 @@
-package com.feranstirman.myapplication.activity
+package com.feranstirman.myapplication.activity.fragments
 
 import android.content.Context
 import android.net.Uri
@@ -92,7 +92,7 @@ class BlankFragment : Fragment() {
          */
         // TODO: Rename and change types and number of parameters
         @JvmStatic
-        fun newInstance(param1: String, param2: String) =
+        fun newInstance() =
             BlankFragment().apply {
                 arguments = Bundle().apply {
                     putString(ARG_PARAM1, param1)
